@@ -2,6 +2,7 @@
   "name": "relevantic",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +12,10 @@
   "description": "",
   "dependencies": {
     "@langchain/community": "^0.3.17",
+    "@langchain/core": "^0.3.22",
     "@langchain/openai": "^0.3.14",
     "dotenv": "^16.4.7",
+    "langchain": "^0.3.6",
     "neo4j-driver": "^5.27.0"
   }
 }
