@@ -13,7 +13,9 @@
   "dependencies": {
     "@langchain/community": "^0.3.17",
     "@langchain/core": "^0.3.22",
+    "@langchain/ollama": "^0.1.2",
     "@langchain/openai": "^0.3.14",
+    "@langchain/textsplitters": "^0.1.0",
     "dotenv": "^16.4.7",
     "langchain": "^0.3.6",
     "neo4j-driver": "^5.27.0"
